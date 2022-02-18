@@ -3,6 +3,11 @@ uuid = "75cec3f5-d911-4a75-980c-c5c658e862ab"
 authors = ["Jeff Hsieh <jeff_hsieh@sfu.ca> and contributors"]
 version = "0.1.0"
 
+[deps]
+Expectations = "2fe49d83-0758-5602-8f54-1f90ad0d522b"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
 [compat]
 julia = "1.7"
 
