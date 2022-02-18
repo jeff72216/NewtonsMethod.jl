@@ -33,7 +33,7 @@ function newtonroot(f; x₀, tolerance=1E-7, maxiter=1000)
     if iter > maxiter && normdiff > tolerance
         return NaN
     else
-        return x_old
+        return x₀
     end
 end
 
